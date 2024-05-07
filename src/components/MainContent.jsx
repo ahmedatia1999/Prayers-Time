@@ -152,14 +152,14 @@ export default function MainContent() {
     <>
       {/* Top Row  */}
       <Grid container>
-        <Grid xs={6}>
+        <Grid xs={12} md={6}>
           <div>
             <h2>{today}</h2>
             <h1>{city.DisplayName}</h1>
           </div>
         </Grid>
 
-        <Grid xs={6}>
+        <Grid xs={12} md={6}>
           <div>
             <h2>متبقي علي صلاة {prayersArray[nextPrayerIndex].displayName}</h2>
             <h1>{remainingTime}</h1>

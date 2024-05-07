@@ -52,3 +52,18 @@ body {
 .MuiSvgIcon-root {
   color: white !important;
 }
+
+@media (max-width: 1000px) {
+  .MuiStack-root{
+    display: flex !important;
+    flex-direction: column !important;
+    width: 90% !important;
+    margin: 20px auto !important;
+    gap: 20px !important;
+    align-items: center;
+  }
+  .MuiGrid-container {
+    width: 60% !important;
+    margin: auto !important;
+  }
+}
